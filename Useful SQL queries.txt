@@ -1,0 +1,21 @@
+SOME USEFUL SQL QUERIES
+=====================================
+1.To connect  to the created Database
+-----------------------------------------
+use db_name;
+
+2. To get the list of the  Database
+-----------------------------------------
+show databases;
+
+3. To get the list of the tables
+-----------------------------------------
+show tables;
+
+4. To create the Database
+------------------------------------------
+create  database db_name;
+
+5.To know the table structure
+------------------------------------------
+describe table_name;

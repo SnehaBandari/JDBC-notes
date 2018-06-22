@@ -1,0 +1,62 @@
+JAVA Thumb Rules
+=======================
+1. if LHS  "equals to" RHS then LHS is always Concrete Class.
+		A ref = new A();
+
+2. if LHS "not equals to" RHS then LHS can be Concrete class or Interface or Abstract Class.
+		B ref = new A();
+		
+3. A class which is declared with "abstract" keyword is called as an "Abstract class".
+
+4. A class which is declared without "abstract" keyword is called Concrete class.
+
+5. All final classes are "concrete classes".
+
+6. Simply having an Interface is of no use & there must be atleast one Implementation classes.
+
+7. Simply having an Abstract class is of "No use" and there must be a "Atleast one Sub  class"
+
+8. In java, "super class" can be either an "abstract class" or "concrete class".
+
+9. Anything in java which Starts with Upper Case  letter is either class Name or interface name
+
+10. Anything in java which starts with lowercase letter and without paranthesis is a variable name.
+
+11. Anything in java with paranthesis is a "Method name".
+
+12. in Java, anything apart from primitive datatype are called as Object References.
+	for eg: 
+			int i;
+			boolean isTrue;
+			Abc ref;
+where, "i" and "isTrue" are primitive datatype variables.
+		ref is a object ref variable
+		Where, "Abc" can be an interface or an abstract class or concrete class
+		
+13. if a method/constructor input argument is other than primitive datatype, then it can be interface/concrete class/abstract class
+
+	public void myMethod(Abc ref)
+	{
+		/*
+		 * Some business Logic
+		 */
+	}
+
+14. if a method return type is other than primitive datatype, then it can be "Interface/concrete class/Abstract class"
+	
+	public Abc myMethod()
+	{
+		/*
+		 * Some business Logic
+		 */
+	return Abc object/sub class object/implementation class object
+	}
+	
+There are 2 types of interfaces
+1. Marker Interface
+2. Non Marker Interface
+
+> if a class implements an interface & we are not getting any compilation error means it can be a Non marker/marker interface
+
+> if it is a non marker interface then it will not contain any abstract methods in it but it should consists of only variables.
+

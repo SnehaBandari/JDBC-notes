@@ -1,0 +1,172 @@
+Computer
+============
+>  It is a combination of hardware and OS.
+> computer are represented as shown below
+
+
+Server
+========
+It is a computer but the  hardware  configuration of this is
+ complex compare to the desktop computer.
+Eg: Server can have 22 TB of RAM
+
+Server are represented as shown below
+
+
+
+
+Operating System
+=================
+It acts like an interface between application and
+ underlying hardware
+
+
+ 
+ 
+ 
+ 
+
+Applications
+==============
+> Every Applications  has its own dedicated functionality 
+eg: Adobe reader can only open pdf files
+Media player can open only media files 
+
+> Every application is platform dependent including
+ java application.
+ 
+> Java application is platform dependent however,
+ java as a programming language is platform 
+  independent.
+  
+> Java as programming language is platform independent because 
+ JRE or JVM are platform dependent
+
+There are 2 types of applications 
+1. Standalone application(Unshared application)
+2. Web application(Shared Applications)
+
+
+Standalone Applications
+=====================
+Standalone applications are present in our 
+own computer and they are dedicated per user.
+Eg: Adobe reader, Web browser, Media player etc...
+
+
+There are 2 types of Standalone applications 
+1. Desktop Application
+	As the name implies it is present in our own computer
+
+2. Mobile Application
+	As the name implies it is present in smart phones
+	
+	
+	
+	
+Web Applications
+===================
+Web applications are not present in our own computer,
+ but they are present in some other computer,
+ where our computer and that computer is network
+ connected.
+Eg: GMail, Facebook, Twitter etc...
+		
+To interact with web application we must make use of 
+1. Network 
+2.Web Browser
+
+ Network
+ ===================
+	It is a collection of computers and there are
+	two types of network
+	
+	1. Intranet(Private network)
+	 eg: JSpiders attendance tracking web application
+	 is present in intranet network.
+	
+	2. Internet(Public network)
+		eg: Gmail app is present in internet
+	
+	
+Web Browser
+================
+Web browser is a desktop application and if we are
+ using browser means we are interacting with
+ web application.
+ 
+
+	
+	
+	
+
+
+
+
+
+
+
+RDBMS Application
+===================
+It is also an application which helps us to store and
+ maintain GBs to TBs of data
+RDBMS application is represented as shown below
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+J2EE(Java 2 Enterprise Edition)
+===============================
+>J2EE is a collection of APIs (Application Programming Interface),
+ which helps us to develop "Enterprise Web Application".
+
+API(Application Programming Interface)
+===================================
+>An API is a collection of packages with dedicated functionality
+
+
+Major API of J2EE are
+=======================
+1. JDBC
+2.Servlet
+3.JSP
+4.Java Mail
+etc...
+
+>JDBC API helps web application to interact with
+ RDBMS Application.
+>Servlet and JSP APIs helps web application to 
+	-Get the request from browser
+	-Generate the response
+	-Gives it back to the browser
+>"J2EE" helps to develop "Web Application"
+ where as "Android / IOS" helps
+ to develop "Mobile Apps".
+
+ 
+ 
+ 
+>Mobile Applications are 2 tier Architectured Applications
+>However web application acts like 3 tier architectured application if it is 
+accessed using web browser.
+
+> 2 tier architectured application if it is accessed using mobile app
+> 3 tier architectured applications are easy to maintain as compared to 
+	2 tier architectured applications.
+	
+
+	
+
+
+                                                                                                          
+

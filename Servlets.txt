@@ -1,0 +1,103 @@
+Servlet Introduction
+=================================
+
+
+Web Browswer
+===============================
+> It is a desktop application which helps us to interact with web applications
+> Browser is the one and only application which understand content/data present in html and display accordingly.
+
+Web Resources
+===============================
+>Resources present inside web application are called as web resources.
+
+There are two types of web resources
+========================================
+1. Static web resources
+===========================
+
+>These resources "are present at web application" before making the request.
+>Content of those resources "does not change " for every request(Static response)
+>In otherwords, resources which generates "static response" is called as static web resources.
+
+-few examples,
+1. Any songs/video/movie files download
+2. Any softwares download
+3. Any books(pdf, ms word, etc...) download
+
+2.Dynamic Web resources
+===============================
+>These resources "does not present at web application" before making the request and they get generated at the time of request.
+> In otherwords resources which generates dynamic response, is called Dynamic web resources.
+>content of the resources "may change" for every requesst(Dynamic response).
+
+-few examples
+1.Any net Banking web application transaction staatement download(pdf).
+2.Any post paid connection statement download (pdf).
+3. Google search page.
+4. Gmail Inbox page.
+5. Facebook homepage.
+6.Gmail "Download all attachments"(zip file).
+
+Note:
+==========
+>both static and Dynamic response can be html or non html in nature.
+
+
+Web application
+=====================
+> web application is an application which is accessed over the network with the help of browser.
+> web application is a collection of web resources.
+> If a web application contains only static web resources then it is called as an staatic web application.
+> if a web application contains one/more dynamic web resources then it is called as an dynamic web application.
+	eg: gmail, facebook, twitter, flipkart, etc...
+> J2EE/ Java EE helps us to develop dynamic web application.
+> however html helps us to develop static web application.
+
+WebServer 
+============================
+> Like any other application(Adobe Reader, media player etc..) webserver is also an application which runs an os.
+> Web server as the name implies "Server requests to a web application".
+>In otherwords, it helps both web browser and web application to interact with each other.
+> Hence every web application(Static/Dynamic) is directly under the control of web server.
+
+few examples of webserver
+==============================
+1. Apache Tomcat
+2. Redhat JBoss
+3. IBM websphere
+4. Oracle weblogic
+5. Oracle glassfish
+
+Steps to install apache tomcat webserver 
+====================================
+Download the apache tomcat(zip version) and extract it onto some directory.
+
+Set the following 2 environment variables
+1. JAVA_HOME
+2. CATALINA_HOME
+
+for eg:
+		JAVA_HOME : c:\programfiles\java\jdk1.8.0.27
+		CATALINA_HOME: c:\programfiles\apache-tomcat-8.0.5
+		
+Note:
+=========
+> Both paths should not point to "lib/bin" folder
+> JAVA_HOME should consists of "java installation " path not the "java exe" location path.
+
+Go to "<Tomcat-location>\bin" folder and double  click on startup.bat or startup file.
+
+>After this step, server should start without throwing an exception in the console.
+>If server throws an exception then it menas that server started in exception mode.
+> in this case, most likely there is a problem in setting up the environment variable.
+> To shut down the webserver close the console window or use "ctrl  + c"
+
+
+
+
+
+
+
+
+	

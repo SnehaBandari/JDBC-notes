@@ -1,0 +1,101 @@
+Table of Contents
+
+A) Introduction to JAVA EE
+===============================
+	1. Introduction to web applications
+	2. About JAVA EE and its APIs
+	3. JAVA EE 2 tier Architecture
+	4. JAVA EE 3 tier Architecture
+	
+B) JDBC
+=================================
+	1. Introduction
+		-About JDBC
+		-JDBC prerequirements
+		-Installing mySql DB Server
+		- First JDBC Program
+	2. Drivers
+		-Introduction
+		-JAR file
+		-About Driver class
+		-How to load the Driver class into the program
+		-Driver Types
+	3. DB URL
+	4. Connection Interface
+		-DriverManager class
+		-getConnection()
+		-Connection Object
+	5. JDBC Statements
+		-Dynamic and Static SQL Queries
+		-Statement and Prepared Statement
+		-executeQuery() and executeUpdate()
+	6. ResultSet
+
+C) Servlets
+=====================================
+	1. Introduction
+		- Web Browser
+		-Web Resources
+		-Web Application
+		-Web Server
+		-Installation of Tom Cat Server
+	2. About Servlets
+		-Servlets Introduction
+		- Creating the First Servlet
+		-WAR file
+		-Build and Deployment Process
+	3. Web URL
+		-Web URL Structure
+		-Query String
+		-http and https protocol
+		- key elements of http request and http response
+		- http methods
+		-Diff b/w GET and POST
+	4. Servlet Coontainer
+		- About Servlet container and advantages
+		- Request and Response Objects
+		- getParameter() and getParameterValues()
+		- About XML
+		-About Deployment Descriptor Stub(web.xml)
+	5. Servlet Hierarchy
+		-GenericServlet
+		-HttpServlet
+		-Diff b/w HttpServlet and GenericServlet
+		-Servlet Life Cycle
+		-SingleThreadedModel Servlets
+	6. ServletContext and ServletConfig
+	7. redirect(), forward() and include()
+	8. Attributes
+	9. Cookies
+		- introduction
+		-persistent and non persistent cookies
+	10. Session
+		- Introduction 
+		-Advantages of Session
+		-steps to work with Session
+		-URL rewriting
+
+D) JSP
+=========================
+	1. Introduction
+		-About JSP
+		-Diff b/w Servlets and JSP
+	2. JSP life cycle
+	3. JSP objects
+	   -object scope in JSP
+	   -implicit objects in JSP
+	4. JSP tags
+		- Declaration Tag
+		- Expression Tag
+		-Scriptlet Tag
+		-Action Tag
+			* forward Action
+			*  include Action
+			* use bean Action
+		-Directive tag
+			* include Directive
+			* page Directive
+			* taglib Directive
+	5. Error handling in JSP
+	6. Implementing SingleThreadModels in JSP
+	7. Redirect in JSP
